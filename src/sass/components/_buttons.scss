@@ -1,0 +1,25 @@
+@use "../colors" as *;
+
+@mixin SubmitIt {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $btncolor;
+  color: $textcolor;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+@mixin ReadMore {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $textcolor;
+  color: $btncolor;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 15px;
+}

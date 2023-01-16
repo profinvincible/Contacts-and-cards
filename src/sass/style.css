@@ -1,0 +1,61 @@
+@use "./reset";
+@use "./components/buttons";
+@use "./components/navbar";
+@use "./components/signup";
+/*# sourceMappingURL=style.css.map */sans-serif;
+  background-color: green;
+  color: gold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.SubmitIt:active {
+  background-color: white;
+}
+
+.Navlinks a {
+  color: gold !important;
+  margin-top: 10px !important;
+  box-shadow: brown !important;
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  box-sizing: content-box;
+}
+
+.Link a {
+  color: pink !important;
+  margin-top: 10px !important;
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  box-sizing: content-box;
+}
+
+.ReadMore {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gold;
+  color: green;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 15px;
+}
+
+.ReadMore:active {
+  background-color: green;
+}
+
+.Signup {
+  color: green !important;
+  margin-top: 22px;
+  background-image: url(/src/sass/image/pixelu.jpg);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

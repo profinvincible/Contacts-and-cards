@@ -1,0 +1,47 @@
+@use "./buttons" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+@mixin Navlinks {
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  box-sizing: content-box;
+}
+
+@mixin Links {
+  color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.SubmitIt {
+  @include SubmitIt;
+}
+
+.SubmitIt:active {
+  background-color: white;
+}
+
+.Navlinks a {
+  color: gold !important;
+  margin-top: 10px !important;
+  box-shadow: brown !important;
+  @include Navlinks;
+}
+
+.Link a {
+  color: pink !important;
+  margin-top: 10px !important;
+  @include Navlinks;
+}
+
+.ReadMore {
+  @include ReadMore;
+}
+
+.ReadMore:active {
+  background-color: green;
+}

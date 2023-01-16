@@ -1,0 +1,13 @@
+@use "../colors" as *;
+// @use "./image" as *;
+
+@mixin Signup {
+  margin-top: 22px;
+  background-image: url(/src/sass/image/pixelu.jpg);
+  background-size: cover;
+}
+
+.Signup {
+  color: green !important;
+  @include Signup;
+}
